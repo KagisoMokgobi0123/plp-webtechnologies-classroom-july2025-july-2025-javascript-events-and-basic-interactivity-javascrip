@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*--- Header ---*/
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+/* Search form with input and button */
+.headerDiv {
+    border-radius: 10px;
+}
+.headerDiv input{
+    background: #dddddd;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 18px;
+    padding:3px;
+}
+.headerDiv button {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    padding: 3px;
+    border: none;
+    background: #333;
+    color: white;
+}
+.headerDiv button:hover{
+    background-color: #4e4e4e;
+    cursor: pointer;
+}
+
+
+/*---    Navigation bar  ---*/
+.navBar{
+    background: #333;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Navigation bar logo */
+.navBar h3 {
+    color: orange;
+}
+/* Navigation bar list*/
+.navList{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+.linkList {
+    list-style-type: none;
+    margin-right: 20px;
+}
+/* Link list */
+.linkList a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Dark and light mode controller button */
+.linkList #mode {
+    font-size: 15px;
+    background-color: orange;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    padding: 5px;
+}
+.linkList #mode:hover{
+    background-color: rgb(238, 155, 1);
+    cursor: pointer;
+}
+
+
+/* Sign up form */
+/* */
+.formDiv .form{
+    border: 2px solid #333;
+}
+/* .userDetails {
+    border:2px solid yellow;
+} */
+.formHead {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20%;
+}
+.signUp {
+    margin-left: 35%;
+    color: orange;
+    margin-top: 15px;
+    font-size: 20px;
+}
+/* Close form button */
+.closeForm {
+    color: #333;
+    padding:6px;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.closeForm:hover {
+    padding-bottom: 2px;
+    color: red;
+    cursor: pointer;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.formDiv .form {
+    display: block;
+    background-color: white;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.userDetails div{
+    margin: 10px;
+}
+
+/*---- Submit button ---*/
+/* Div for a form submit button */
+.submitDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/*Button to submit a signup form*/
+.submitDiv button {
+    padding:5px 35% 5px 35%;
+    margin:10px;
+    background-color: orange;
+    border:none;
+    color:white;
+    font-size: 20px;
+}
+.submitDiv button:hover {
+    background-color: rgb(252, 174, 7);
+    cursor: pointer;
+}
+.msg {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 4px;
+}

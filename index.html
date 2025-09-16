@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="Style/style.css">
+        <title>Week 4</title>
+    </head>
+    <body id="main_Content">
+        <header>
+            <form class="headerDiv">
+                <input type="search" id="search" class="search" placeholder="search..">
+                <button type="submit">search</button>                
+            </form>
+        </header>
+        <nav class="navBar">
+            <h3>
+                Week 4 Assignment
+            </h3>
+            <ul class="navList">
+                <li class="linkList">
+                    <a href="#">Home</a>
+                </li>
+                <li class="linkList">
+                    <a href="#" id="about">About</a>
+                </li>
+                <li class="linkList">
+                    <a href="#">Project</a>
+                </li>
+                <li class="linkList">
+                    <a href="#">Signup</a>
+                </li>
+                <li class="linkList">
+                    <button id="mode" onclick="bodyClick()">Dark mode</button>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="formDiv">
+                <form class="form" id="form" method="post">
+                    <div class="formHead">
+                        <h4 class="signUp">SIGN UP</h4>
+                        <div class="closeForm">X</div> 
+                    </div>
+                    <div class="userDetails">
+                        <div class="userName-div">
+                            <label for="fullName">Full Name</label>
+                            <input name="fulltName" type="text" id="fullName" class="fullName"><br>
+                            <span class="msg" id="nameMsg"></span>
+                        </div>
+                        <div class="userAddress-div">
+                            <label for="address">Country</label>
+                            <select name="address" id="address" class="province">
+                                <option value="">-- Select Province --</option>
+                                <option value="EC">Eastern Cape</option>
+                                <option value="FS">Free State</option>
+                                <option value="GP">Gauteng</option>
+                                <option value="KZN">KwaZulu-Natal</option>
+                                <option value="LP">Limpopo</option>
+                                <option value="MP">Mpumalanga</option>
+                                <option value="NC">Northern Cape</option>
+                                <option value="NW">North West</option>
+                                <option value="WC">Western Cape</option>
+                            </select>
+                            <span class="msg" id="addressMsg"></span>
+                        </div>
+                        <div class="email-div">
+                            <label for="userEmail">Email</label>
+                            <input name="userEmail" type="text" class="userEmail" id="userEmail" placeholder="john@gmail.com"><br>
+                            <span class="msg" id="emailMsg"></span>
+                        </div>
+                        <div class="password-Div">
+                            <label for="userPassword">Password</label>
+                            <input name="userPassword" type="text" class="userPassword" id="userPassword" placeholder="password.."><br>
+                            <span class="msg" id="passwordMsg"></span>
+                        </div>
+                    </div>
+                    <div class="submitDiv">
+                        <button type="submit" >Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <script src="Books/script.js"></script>
+    </body>
+</html>
