@@ -9,6 +9,18 @@ searchBox.addEventListener("blur",function(){
 
 
 
+function closeBox(){
+    let closeForm = document.getElementById("formDiv")
+
+    closeForm.style.display = "none"
+};
+
+function openBox(){
+    let openForm = document.getElementById("formDiv")
+    openForm.style.display = "flex"
+}
+
+
 function bodyClick(){
 
     let bodyMode = document.getElementById("main_Content")

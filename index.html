@@ -28,7 +28,7 @@
                     <a href="#">Project</a>
                 </li>
                 <li class="linkList">
-                    <a href="#">Signup</a>
+                    <a href="#" onclick="openBox()">Signup</a>
                 </li>
                 <li class="linkList">
                     <button id="mode" onclick="bodyClick()">Dark mode</button>
@@ -36,11 +36,11 @@
             </ul>
         </nav>
         <main>
-            <div class="formDiv">
+            <div class="formDiv" id="formDiv">
                 <form class="form" id="form" method="post">
                     <div class="formHead">
                         <h4 class="signUp">SIGN UP</h4>
-                        <div class="closeForm">X</div> 
+                        <div class="closeForm" onclick="closeBox()">X</div> 
                     </div>
                     <div class="userDetails">
                         <div class="userName-div">
