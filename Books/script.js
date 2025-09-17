@@ -4,7 +4,7 @@ searchBox.addEventListener("focus",function(){
     this.style.background = "white";
 })
 searchBox.addEventListener("blur",function(){
-    this.style.background = " ";
+    this.style.background = "";
 })
 
 
